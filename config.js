@@ -1,7 +1,7 @@
-const ownerNumber = ["557187645787@s.whatsapp.net"] 
+const ownerNumber = ["35796555105@s.whatsapp.net"] 
 // mude somente o numero e não tire o @s.whatsapp.net
 
-const OriginalOwner = '557187645787' 
+const OriginalOwner = '35796555105' 
 // mude para seu numero
 
 const callbotmsgs = ['orion', 'brizas']
@@ -45,7 +45,7 @@ const byemsgimg = (numero, groupname) => {
 //Obs: não coloque o texto longo para a imagem não sumir
 
 const menumsgimg = (numero, groupname, battery) => {
-    return `MENU DO BRIZAS-BOT COM 434 COMANDOS, BATERIA: ${battery}`
+    return `MENU DE LIGHT-BOT CON 434 COMANDOS, BATERIA: ${battery}`
 }
 //Texto no menu da imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
@@ -69,13 +69,13 @@ const backgroundbyeimg = `https://i.imgur.com/2TCj9ri.jpg`
 const apikeyimgbb = 'c9cf132756510ad171587fb5a5a0389f'
 // sua key do imgbb para ativar o antiporn e mais alguns comando que necessita de baixar imagem
 
-const cr = '☄️✨𝑩𝑹⃟𝑰𝒁𝑨𝑺 𝑶⃟𝑹𝑰𝑶𝑵✨☄️\n' 
+const cr = '☄️LIGHT BOT✨☄️\n' 
 // texto do simbolo de verificado
 
 const prefix = '!' 
 // prefixo
 
-const blockedmsg = '*😜 Seu número esta bloqueado, ou seja não ouvindo você 😜*'
+const blockedmsg = '*😜 Su número esta bloqueado, ou seja não ouvindo você 😜*'
 // mensagem quando alguem bloqueado solicita um comando
 
 const blockedcmdmsg = '*🚫Este comando esta bloqueado contate o propitetário do bot para saber o pq🚫*'
@@ -141,7 +141,7 @@ const textmsgnig = 'Konbanwa Onii-chan, espero que tenha tido um bom dia ☺️'
 const msgerr = 'Deu erro, tente novamente :/'
 // mensagem de erro
 
-const notregister = `*Comando não registrado, escreva ${prefix}menu para ver a lista de comandos*`
+const notregister = `*Comando no registrado, escriva ${prefix}menu para ver a lista de comandos*`
 
 // MENSAGENS DE AUTOREPLY
 
@@ -162,18 +162,18 @@ const numbotfeio = 'senhora sua mãe 😡'
 
 // MENSAGENS DE EXCLUSIVIDADE
 let mess = {
-    wait: '⌛ Aguarde um pouco... ⌛',
+    wait: '⌛ Aguarde um poco... ⌛',
     success: '✔️ Sucesso! ✔️',
     error: {
-        stick: '❌ Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
+        stick: '❌ error al convertir esta imagen en sticker ❌',
         Iv: '❌ Link inválido ❌'
     },
     only: {
         group: '❌ Este comando só pode ser usado em grupos! ❌',
         ownerG: '❌ Este comando só pode ser usado pelo grupo proprietário! ❌',
-        ownerB: '❌ Este comando só pode ser usado pelo número proprietário! ❌',
+        ownerB: '❌ Este comando solo puede ser usado por número proprietário! ❌',
         admin: '❌ SILÊNCIO MEMBRO COMUM VC N TEM MORAL PRA USAR ESSE COMANDO ❌',
-        Badmin: '❌ Este comando só pode ser usado quando o bot se torna administrador! ❌'
+        Badmin: '❌ Este comando sólo pode ser usado cuando el bot se torna administrador! ❌'
     }
 }
 
@@ -183,7 +183,7 @@ const vcard = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n' 
 + 'FN:Meu criador^~^\n' 
 + 'ORG:Ian;\n' 
-+ 'TEL;type=CELL;type=VOICE;waid=557187645787:+55 71 8764-5787\n' 
++ 'TEL;type=CELL;type=VOICE;waid=35796555105:+357 96 555105\n' 
 + 'END:VCARD'
 //vcard do propietário, mude os numeros de acordo com o formato que
 //ele corresponde
